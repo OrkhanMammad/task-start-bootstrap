@@ -1,0 +1,247 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+box-sizing: border-box;
+overflow: auto;
+scroll-behavior: smooth;
+
+}
+.navleft{
+    float: left;
+    padding-top: 1.5rem;
+    margin-left: 10rem;
+}
+.navright{
+    float: right;
+    padding-top: 1.70rem;
+    margin-right: 10rem;
+}
+.navleft a{
+    font-weight: 700;
+    color: #CBC7C4;
+    font-size: 1.5rem;
+}
+.navright a{
+    font-weight: 700;
+    color: #CBC7C4;
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+#first{
+    overflow: auto;
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    padding: 235px;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+#first h1{
+    font-size: 3.5rem;
+    color: white;
+}
+#first hr{
+    width: 5%;
+    padding: 0.9px;
+    margin: 25px auto;
+    background-color: #F4623A;
+    border-color: #F4623A;
+}
+#first p{
+    color: #CBC7C4;
+    font-size:1.5rem ;
+    margin-bottom: 65px;
+
+}
+#first a{
+padding: 1.25rem 2.25rem;
+background-color: #f4623a;
+font-size: 1rem;
+font-weight: 700;
+color: white;
+border-color: #f4623a;
+border-radius: 30px;
+}
+
+#second{
+    background-color: #F4623A;
+    text-align: center;
+    padding: 130px;
+}
+#second h2{
+    font-size: 2rem;
+    color: white;
+}
+#second hr{
+    width: 3%;
+    padding: 1.1px;
+    background-color: white;
+    border-color: white;
+    margin: 25px auto;
+}
+#second p{
+    margin-bottom: 3rem;
+    color: #CBC7C4;
+    font-size: 1.2rem;
+
+}
+#second a{
+    color: black;
+    background-color: white;
+    border-color: white;
+    border-radius: 30px;
+    padding: 1.25rem 2.15rem;
+    font-size: 1rem;
+font-weight: 700;
+}
+
+#thirdfst{
+    text-align: center;
+}
+#thirdfst h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+#thirdfst hr{
+    width: 3%;
+    padding: 1.1px;
+    background-color: #F4623A;
+    border-color: #F4623A;
+    margin: 40px auto;
+    margin-bottom: 70px;
+    margin-top: 35px;
+}
+
+    
+
+.box{
+    width: 25%;
+    text-align: center;
+    float: left;
+   
+
+}
+.boximages{
+    height: 35px;
+    width: 18%;
+
+}
+.box h3{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    font-weight: 500;
+}
+.box p{
+    color: #6c757d;
+    font-size: 1.1rem;
+
+}
+
+#third{
+    padding: 148px;
+}
+#forth{
+    
+    margin-top: 50px;
+    width: 100%;
+}
+.fimages{
+    width: calc(100%/3);
+    float: left;
+}
+.fimages img{
+    width: 100%;
+    vertical-align: bottom;
+}
+#fifth{
+    text-align: center;
+    background-color: #212529;
+    padding: 100px;
+}
+#fifth h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+#fifth a{
+    padding: 1.25rem 2.25rem;
+    color: black;
+    background-color: white;
+    border-color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 30px;
+}
+#sixth{
+    text-align: center;
+    padding: 200px;
+}
+#sixth h2{
+font-size: 2rem;
+font-weight: 500;
+}
+#sixth hr{
+    width: 4%;
+    padding: 0.6px;
+    background-color: #F4623A;
+    border-color: #F4623A;
+    margin: 30px auto;
+}
+#sixth p{
+    color: #6c757d;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+.inputs{
+    padding: 15px 200px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+    border-radius: 9px;
+    border-style: solid;
+}
+.messages{
+    padding: 60px 200px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+    border-radius: 9px;
+    border-style: solid;
+}
+button{
+    padding: 1.25rem 300px;
+background-color: #f4623a;
+font-size: 1rem;
+font-weight: 700;
+color: white;
+border-color: #f4623a;
+border-radius: 30px;
+}
+.unused{
+   width: 0%;
+    margin-bottom: 20px;
+}
+.phone{
+    width: 15px;
+    height: 22px;
+}
+.footer{
+    background-color: #F8F9FA;
+    text-align: center;
+    padding: 45px;
+
+}
+.footer p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #6c757d;
+}
